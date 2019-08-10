@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D46A484822FE51C400311D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A484722FE51C400311D51 /* AppDelegate.swift */; };
+		D46A484A22FE51C400311D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A484922FE51C400311D51 /* ViewController.swift */; };
+		D46A484D22FE51C400311D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46A484B22FE51C400311D51 /* Main.storyboard */; };
+		D46A484F22FE51C500311D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46A484E22FE51C500311D51 /* Assets.xcassets */; };
+		D46A485222FE51C500311D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46A485022FE51C500311D51 /* LaunchScreen.storyboard */; };
+		D46A485D22FE51C500311D51 /* MarubatuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A485C22FE51C500311D51 /* MarubatuAppTests.swift */; };
+		D46A486822FE51C500311D51 /* MarubatuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A486722FE51C500311D51 /* MarubatuAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D46A485922FE51C500311D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46A483C22FE51C400311D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46A484322FE51C400311D51;
+			remoteInfo = MarubatuApp;
+		};
+		D46A486422FE51C500311D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46A483C22FE51C400311D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46A484322FE51C400311D51;
+			remoteInfo = MarubatuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D46A484422FE51C400311D51 /* MarubatuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarubatuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46A484722FE51C400311D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D46A484922FE51C400311D51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D46A484C22FE51C400311D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D46A484E22FE51C500311D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46A485122FE51C500311D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46A485322FE51C500311D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46A485822FE51C500311D51 /* MarubatuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46A485C22FE51C500311D51 /* MarubatuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatuAppTests.swift; sourceTree = "<group>"; };
+		D46A485E22FE51C500311D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46A486322FE51C500311D51 /* MarubatuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46A486722FE51C500311D51 /* MarubatuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatuAppUITests.swift; sourceTree = "<group>"; };
+		D46A486922FE51C500311D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46A484122FE51C400311D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46A485522FE51C500311D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46A486022FE51C500311D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D46A483B22FE51C400311D51 = {
+			isa = PBXGroup;
+			children = (
+				D46A484622FE51C400311D51 /* MarubatuApp */,
+				D46A485B22FE51C500311D51 /* MarubatuAppTests */,
+				D46A486622FE51C500311D51 /* MarubatuAppUITests */,
+				D46A484522FE51C400311D51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D46A484522FE51C400311D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46A484422FE51C400311D51 /* MarubatuApp.app */,
+				D46A485822FE51C500311D51 /* MarubatuAppTests.xctest */,
+				D46A486322FE51C500311D51 /* MarubatuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46A484622FE51C400311D51 /* MarubatuApp */ = {
+			isa = PBXGroup;
+			children = (
+				D46A484722FE51C400311D51 /* AppDelegate.swift */,
+				D46A484922FE51C400311D51 /* ViewController.swift */,
+				D46A484B22FE51C400311D51 /* Main.storyboard */,
+				D46A484E22FE51C500311D51 /* Assets.xcassets */,
+				D46A485022FE51C500311D51 /* LaunchScreen.storyboard */,
+				D46A485322FE51C500311D51 /* Info.plist */,
+			);
+			path = MarubatuApp;
+			sourceTree = "<group>";
+		};
+		D46A485B22FE51C500311D51 /* MarubatuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D46A485C22FE51C500311D51 /* MarubatuAppTests.swift */,
+				D46A485E22FE51C500311D51 /* Info.plist */,
+			);
+			path = MarubatuAppTests;
+			sourceTree = "<group>";
+		};
+		D46A486622FE51C500311D51 /* MarubatuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D46A486722FE51C500311D51 /* MarubatuAppUITests.swift */,
+				D46A486922FE51C500311D51 /* Info.plist */,
+			);
+			path = MarubatuAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46A484322FE51C400311D51 /* MarubatuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46A486C22FE51C500311D51 /* Build configuration list for PBXNativeTarget "MarubatuApp" */;
+			buildPhases = (
+				D46A484022FE51C400311D51 /* Sources */,
+				D46A484122FE51C400311D51 /* Frameworks */,
+				D46A484222FE51C400311D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarubatuApp;
+			productName = MarubatuApp;
+			productReference = D46A484422FE51C400311D51 /* MarubatuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D46A485722FE51C500311D51 /* MarubatuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46A486F22FE51C500311D51 /* Build configuration list for PBXNativeTarget "MarubatuAppTests" */;
+			buildPhases = (
+				D46A485422FE51C500311D51 /* Sources */,
+				D46A485522FE51C500311D51 /* Frameworks */,
+				D46A485622FE51C500311D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46A485A22FE51C500311D51 /* PBXTargetDependency */,
+			);
+			name = MarubatuAppTests;
+			productName = MarubatuAppTests;
+			productReference = D46A485822FE51C500311D51 /* MarubatuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D46A486222FE51C500311D51 /* MarubatuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46A487222FE51C500311D51 /* Build configuration list for PBXNativeTarget "MarubatuAppUITests" */;
+			buildPhases = (
+				D46A485F22FE51C500311D51 /* Sources */,
+				D46A486022FE51C500311D51 /* Frameworks */,
+				D46A486122FE51C500311D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46A486522FE51C500311D51 /* PBXTargetDependency */,
+			);
+			name = MarubatuAppUITests;
+			productName = MarubatuAppUITests;
+			productReference = D46A486322FE51C500311D51 /* MarubatuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46A483C22FE51C400311D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "坂口卓也";
+				TargetAttributes = {
+					D46A484322FE51C400311D51 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D46A485722FE51C500311D51 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D46A484322FE51C400311D51;
+					};
+					D46A486222FE51C500311D51 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D46A484322FE51C400311D51;
+					};
+				};
+			};
+			buildConfigurationList = D46A483F22FE51C400311D51 /* Build configuration list for PBXProject "MarubatuApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46A483B22FE51C400311D51;
+			productRefGroup = D46A484522FE51C400311D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46A484322FE51C400311D51 /* MarubatuApp */,
+				D46A485722FE51C500311D51 /* MarubatuAppTests */,
+				D46A486222FE51C500311D51 /* MarubatuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46A484222FE51C400311D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46A485222FE51C500311D51 /* LaunchScreen.storyboard in Resources */,
+				D46A484F22FE51C500311D51 /* Assets.xcassets in Resources */,
+				D46A484D22FE51C400311D51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46A485622FE51C500311D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46A486122FE51C500311D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46A484022FE51C400311D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46A484A22FE51C400311D51 /* ViewController.swift in Sources */,
+				D46A484822FE51C400311D51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46A485422FE51C500311D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46A485D22FE51C500311D51 /* MarubatuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46A485F22FE51C500311D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46A486822FE51C500311D51 /* MarubatuAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D46A485A22FE51C500311D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46A484322FE51C400311D51 /* MarubatuApp */;
+			targetProxy = D46A485922FE51C500311D51 /* PBXContainerItemProxy */;
+		};
+		D46A486522FE51C500311D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46A484322FE51C400311D51 /* MarubatuApp */;
+			targetProxy = D46A486422FE51C500311D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D46A484B22FE51C400311D51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46A484C22FE51C400311D51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D46A485022FE51C500311D51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46A485122FE51C500311D51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D46A486A22FE51C500311D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D46A486B22FE51C500311D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46A486D22FE51C500311D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarubatuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.MarubatuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D46A486E22FE51C500311D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarubatuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.MarubatuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D46A487022FE51C500311D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarubatuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.MarubatuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatuApp.app/MarubatuApp";
+			};
+			name = Debug;
+		};
+		D46A487122FE51C500311D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarubatuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.MarubatuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatuApp.app/MarubatuApp";
+			};
+			name = Release;
+		};
+		D46A487322FE51C500311D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarubatuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.MarubatuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatuApp;
+			};
+			name = Debug;
+		};
+		D46A487422FE51C500311D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarubatuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.MarubatuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46A483F22FE51C400311D51 /* Build configuration list for PBXProject "MarubatuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46A486A22FE51C500311D51 /* Debug */,
+				D46A486B22FE51C500311D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46A486C22FE51C500311D51 /* Build configuration list for PBXNativeTarget "MarubatuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46A486D22FE51C500311D51 /* Debug */,
+				D46A486E22FE51C500311D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46A486F22FE51C500311D51 /* Build configuration list for PBXNativeTarget "MarubatuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46A487022FE51C500311D51 /* Debug */,
+				D46A487122FE51C500311D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46A487222FE51C500311D51 /* Build configuration list for PBXNativeTarget "MarubatuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46A487322FE51C500311D51 /* Debug */,
+				D46A487422FE51C500311D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D46A483C22FE51C400311D51 /* Project object */;
+}
